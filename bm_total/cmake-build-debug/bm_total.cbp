@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bm_total"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bm_total">
+				<Option output="/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/bm_total" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 bm_total"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bm_total/fast">
+				<Option output="/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/bm_total" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 bm_total/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm1/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm10/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm11/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm12/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm13/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm14/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm15/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm16/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm17/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm18/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm19/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm20_/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm21/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm26/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm27/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm28/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm29/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm30/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm31/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm32/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm33/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm34/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm35/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm4/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm5/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm6/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm7/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm8/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/bm9/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/main.cpp">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/bm_total/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
