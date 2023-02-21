@@ -1,4 +1,4 @@
-# Install script for directory: /Users/liujian/CLionProjects/nowcoder/bm_total
+# Install script for directory: /Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/liujian/CLionProjects/nowcoder/bm_total/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
