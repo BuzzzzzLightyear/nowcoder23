@@ -1,7 +1,9 @@
 #include <iostream>
-#include "bm35/Solution.h"
+#include "bm96/Solution.h"
 #include <deque>
 #include <vector>
+#include <queue>
+#include <string>
 
 void test(int* p) {
     int a = 10;
@@ -10,26 +12,25 @@ void test(int* p) {
     return ;
 }
 
+struct cmp {
+    bool operator()(int a, int b) {
+        return a > b;
+    }
+};
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-//    ListNode* head = new ListNode(0);
-//    printf("%d\n", head->val);
-//    int a = 20;
-//    int b = 30;
-//    int* q = &b;
-//    int* p = &a;
-//    printf("%d, %d\n", p, *p);
-//    test(p);
-//    p = q;
-//    printf("%d, %d\n", p, *p);
-
-    std::deque<int> dq;
-    dq.push_front(1);
-    dq.push_front(1);
-    std::vector<int> vc(4, 100);
-    std::vector<int> vc1(vc.begin(), vc.end());
-    std::vector<int> vc2(dq.begin(), dq.end());
-
-
+//    Solution so;
+//    printf("%s\n", so.solve("abcdefg").c_str());
+//    printf("val %d\n", so.findKth({1,3,5,2,2}, 5, 5));
+//    so.Insert(5);
+//    printf("%lf\n", so.GetMedian());
+//    so.Insert(2);
+//    printf("%lf\n", so.GetMedian());
+//    so.Insert(3);
+//    printf("%lf\n", so.GetMedian());
+//    std::vector<int> vec{3,5,7,1,2,4,6,3,8,9,5,6};
+//    so.LIS(vec);
+//    std::string str = "12345678";
+//    printf("%s\n", str.substr(3, 4).c_str());
     return 0;
 }
