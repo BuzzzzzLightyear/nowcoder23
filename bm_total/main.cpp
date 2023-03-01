@@ -1,35 +1,27 @@
 #include <iostream>
-#include "bm35/Solution.h"
+//#include "multi_thread/Solution.h"
+//#include "multi_thread/Solution1.h"
 #include <deque>
 #include <vector>
+#include <map>
+#include <queue>
+#include <set>
+using namespace std;
 
-void test(int* p) {
-    int a = 10;
-    int* q = &a;
-    p = q;
-    return ;
+bool cmp(vector<int>a, vector<int>b) {
+    return a[1] < b[1];
 }
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-//    ListNode* head = new ListNode(0);
-//    printf("%d\n", head->val);
-//    int a = 20;
-//    int b = 30;
-//    int* q = &b;
-//    int* p = &a;
-//    printf("%d, %d\n", p, *p);
-//    test(p);
-//    p = q;
-//    printf("%d, %d\n", p, *p);
-
-    std::deque<int> dq;
-    dq.push_front(1);
-    dq.push_front(1);
-    std::vector<int> vc(4, 100);
-    std::vector<int> vc1(vc.begin(), vc.end());
-    std::vector<int> vc2(dq.begin(), dq.end());
-
-
+    std::vector<vector<int>> vec_vec;
+    vec_vec.push_back({1,20});
+    vec_vec.push_back({2,10});
+    vec_vec.push_back({3,2});
+    vec_vec.push_back({4,11});
+    sort(vec_vec.begin(),vec_vec.end(),cmp);
+    for(auto it : vec_vec){
+        printf("%d %d\n", it[0], it[1]);
+    }
     return 0;
 }

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/liujian/CLionProjects/nowcoder23/bm_total/main.cpp
+iostream
+-
+deque
+-
+vector
+-
+map
+-
+queue
+-
+set
+-
+
