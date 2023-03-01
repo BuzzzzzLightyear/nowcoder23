@@ -1,38 +1,68 @@
 #include <iostream>
-<<<<<<< HEAD
-//#include "multi_thread/Solution.h"
-//#include "multi_thread/Solution1.h"
 #include <deque>
 #include <vector>
 #include <map>
 #include <queue>
 #include <set>
+#include <cstdio>
+#include <algorithm>
+
 using namespace std;
-=======
-#include "bm96/Solution.h"
-#include <deque>
-#include <vector>
-#include <queue>
-#include <string>
->>>>>>> 426dde67335b6ef2c48a4eeebbd795a05626c17a
 
-bool cmp(vector<int>a, vector<int>b) {
-    return a[1] < b[1];
-}
-
-<<<<<<< HEAD
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    std::vector<vector<int>> vec_vec;
-    vec_vec.push_back({1,20});
-    vec_vec.push_back({2,10});
-    vec_vec.push_back({3,2});
-    vec_vec.push_back({4,11});
-    sort(vec_vec.begin(),vec_vec.end(),cmp);
-    for(auto it : vec_vec){
-        printf("%d %d\n", it[0], it[1]);
+struct Node {
+    int order;
+    std::string name;
+    int no;
+    int weight;
+    Node(std::string a, int b, int c, int d) {
+        name = a;
+        no = b;
+        weight = c;
+        order = d;
     }
-=======
+};
+
+class Solution {
+public:
+    static bool cmp(Node a, Node b) {
+        if (a.name != b.name) {
+            return a.order < b.order;
+        } else if (a.weight != b.weight) {
+            return a.weight < b.weight;
+        } else {
+            return a.no < b.no;
+        }
+    };
+    int SortAndPrint(int n, std::vector<Node> jobs) {
+        // write code here
+        sort(jobs.begin(), jobs.end(), cmp);
+        for (auto it : jobs) {
+            cout << it.name << " " << it.no << " " << it.weight << endl;
+        }
+        return 0;
+    }
+    static std::map<std::string, int> map_order;
+};
+/*
+int main(){
+    int n;
+    cin >> n;
+    std::vector<Node> vec;
+    std::map<string, int> map_order;
+    std::string name;
+    int a,b, i = 0;
+    while (cin >> name >> a >> b) {
+        if (map_order.count(name) == 0) {
+            map_order[name] = i++;
+        }
+        Node tmp(name, a, b, map_order[name]);
+        vec.emplace_back(tmp);
+    }
+    Solution().SortAndPrint(n, vec);
+
+    return 0;
+}*/
+
 struct cmp {
     bool operator()(int a, int b) {
         return a > b;
@@ -40,19 +70,30 @@ struct cmp {
 };
 
 int main() {
-//    Solution so;
-//    printf("%s\n", so.solve("abcdefg").c_str());
-//    printf("val %d\n", so.findKth({1,3,5,2,2}, 5, 5));
-//    so.Insert(5);
-//    printf("%lf\n", so.GetMedian());
-//    so.Insert(2);
-//    printf("%lf\n", so.GetMedian());
-//    so.Insert(3);
-//    printf("%lf\n", so.GetMedian());
-//    std::vector<int> vec{3,5,7,1,2,4,6,3,8,9,5,6};
-//    so.LIS(vec);
-//    std::string str = "12345678";
-//    printf("%s\n", str.substr(3, 4).c_str());
->>>>>>> 426dde67335b6ef2c48a4eeebbd795a05626c17a
+//    int m, n;
+//    cin >> m >> n;
+//    std::vector<int > vec;
+//    std::priority_queue<int, vector<int>, cmp> pq;
+//    int res = 0;
+//    for (int i = 0; i < n; ++i){
+//        int tmp;
+//        cin >> tmp;
+//        vec.push_back(tmp);
+//    }
+//    sort(vec.begin(), vec.end());
+//
+//    for (int i = 0; i < n; ++i) {
+//        int tmp = vec[i];
+//        if (pq.size() < m) {
+//            pq.push(tmp);
+//            res = max(res, tmp);
+//        } else {
+//            int top = pq.top();
+//            pq.pop();
+//            pq.push(top + tmp);
+//            res = max(res, top + tmp);
+//        }
+//    }
+//    cout << res << endl;
     return 0;
 }
