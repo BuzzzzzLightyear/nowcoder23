@@ -147,7 +147,19 @@
 		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/bm35/Solution.h">
 			<Option target="bm_total"/>
 		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/bm36/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/bm37/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/bm38/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
 		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/bm4/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/bm42/Solution.h">
 			<Option target="bm_total"/>
 		</Unit>
 		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/bm47/Solution.h">
@@ -199,6 +211,12 @@
 			<Option target="bm_total"/>
 		</Unit>
 		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/main.cpp">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/multi_thread/Solution.h">
+			<Option target="bm_total"/>
+		</Unit>
+		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/multi_thread/Solution1.h">
 			<Option target="bm_total"/>
 		</Unit>
 		<Unit filename="/Users/liujian/CLionProjects/nowcoder/nowcoder23/bm_total/CMakeLists.txt">

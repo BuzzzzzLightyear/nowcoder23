@@ -1,14 +1,13 @@
 #include <iostream>
-#include "bm96/Solution.h"
 #include <deque>
 #include <vector>
+#include <map>
 #include <queue>
-#include <string>
+#include <set>
+#include <cstdio>
+#include <algorithm>
 
-void test(int* p) {
-    *p = 10;
-    return ;
-}
+using namespace std;
 
 int cal(int a) {
     if (a <= 36000) {
@@ -36,5 +35,30 @@ int main() {
         cout << cal(a) << endl;
     }
 
+//    int m, n;
+//    cin >> m >> n;
+//    std::vector<int > vec;
+//    std::priority_queue<int, vector<int>, cmp> pq;
+//    int res = 0;
+//    for (int i = 0; i < n; ++i){
+//        int tmp;
+//        cin >> tmp;
+//        vec.push_back(tmp);
+//    }
+//    sort(vec.begin(), vec.end());
+//
+//    for (int i = 0; i < n; ++i) {
+//        int tmp = vec[i];
+//        if (pq.size() < m) {
+//            pq.push(tmp);
+//            res = max(res, tmp);
+//        } else {
+//            int top = pq.top();
+//            pq.pop();
+//            pq.push(top + tmp);
+//            res = max(res, top + tmp);
+//        }
+//    }
+//    cout << res << endl;
     return 0;
 }
