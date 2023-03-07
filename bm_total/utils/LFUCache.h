@@ -7,6 +7,7 @@
 #include <map>
 #include <vector>
 #include <iterator>
+#include <deque>
 using namespace std;
 
 struct Node {

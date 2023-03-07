@@ -79,10 +79,11 @@ public:
     //	return *this;
     //}
     string operator =(string s)//现代写法
-            {
+    {
         swap(s);//s是传值，相当与赋值，构造了一个函数
         return *this;
-            }
+    }
+
             ~string()
             {
         delete _str;
